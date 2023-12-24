@@ -4,11 +4,11 @@ particlesJS("particles-js", {
     color: { value: "#ffffff" },
     shape: {
       type: "circle",
-      stroke: { width: 0, color: "#000000" },
+      stroke: { width: 0, color: "#00000" },
       polygon: { nb_sides: 5 },
     },
     opacity: {
-      value: 0.5,
+      value: 1,
       random: false,
       anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false }
     },
@@ -19,38 +19,38 @@ particlesJS("particles-js", {
     },
     line_linked: {
       enable: true,
-      distance: 150,
+      distance: 100,
       color: "#ffffff",
       opacity: 0.4,
       width: 1
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,
-      out_mode: "out",
-      bounce: false,
+      out_mode: "bounce",
+      bounce: true,
       attract: { enable: false, rotateX: 600, rotateY: 1200 }
     }
   },
   interactivity: {
     detect_on: "canvas",
     events: {
-      onhover: { enable: true, mode: "repulse" },
-      onclick: { enable: true, mode: "push" },
+      onhover: { enable: true, mode: "grab" },
+      onclick: { enable: true, mode: "repulse" },
       resize: true
     },
     modes: {
-      grab: { distance: 400, line_linked: { opacity: 1 } },
+      grab: { distance: 150, line_linked: { opacity: 1 } },
       bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
-      repulse: { distance: 200, duration: 0.4 },
+      repulse: { distance: 200, duration: 0.8 },
       push: { particles_nb: 4 },
       remove: { particles_nb: 2 }
     }
   },
-  retina_detect: true
+  retina_detect: false
 });
 // var count_particles, stats, update;
 // stats = new Stats();
