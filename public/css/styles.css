@@ -87,3 +87,14 @@ canvas{ display: block; vertical-align: bottom; }
     background-size: cover; 
     background-position: 50% 50%;  */
 } 
+
+.about-page {
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    padding-top: 0;
+    margin-top: 0;
+}
