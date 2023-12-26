@@ -79,7 +79,7 @@
 }
 
 .landing {
-    background-image: url(/images/comu.jpg);
+    background-image: url(../images/comu.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -166,10 +166,6 @@ a {
     height: 20vh;
     margin-bottom: 3vh;
     border-radius: 50%;
-}
-
-.committees-last {
-    
 }
 
 .committees-heading {
