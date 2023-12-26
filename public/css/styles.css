@@ -1,23 +1,49 @@
 .container-fluid {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 0px;
 }
 .navbar {
-    padding-top: 5px;
+    /* padding-top: 5px; */
     padding-bottom: 5px;
+    margin-top: 20px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 20px;
     letter-spacing: 1px;
     font-family: Formata, sans-serif;
+    position: fixed !important;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 1000;
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
 
-.navbar-brand {
-    width: 20%;
+.navbar-brand img {
+    height: 10vh;
+    z-index: 1;
+}
+
+.navbar-logo {
+    width: 70%;
+}
+
+.navbar-about-page {
+    background: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-about-page.scrolled {
+    background: black;  /*replace #your-color with the color you want*/
+    padding: 0;
+    margin: 0;
+    
 }
 
 .footer-padding {
@@ -44,9 +70,9 @@
 }
 
 .landing {
-    background-image: url(/images/comu.png);
+    background-image: url(/images/comu2.png);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     height: 100vh;
     text-align: center;
     margin: auto;
@@ -66,6 +92,7 @@
 .comu-logo {
     height: 20vh;
     margin-bottom: 10vh;
+    margin-top: 20vh;
 }
 
 body {
@@ -74,12 +101,13 @@ body {
 }
 
 /* ---- reset ---- */ 
-canvas{ display: block; vertical-align: bottom; } 
+canvas{ display: block; } 
 /* ---- particles.js container ---- */ 
 #particles-js{ 
     position:absolute; 
     width: 100%; 
     height: 100%; 
+    text-align: center;
     
     /* background-color: #5994c7; 
     background-image: url(""); 
@@ -97,4 +125,25 @@ canvas{ display: block; vertical-align: bottom; }
     margin: auto;
     padding-top: 0;
     margin-top: 0;
+}
+
+.motto {
+    color: rgb(231, 231, 231);
+    font-size: 8vh;
+    margin: auto;
+    font-family: Caveat-italic, cursive;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+a {
+    margin: none;
+    padding: none;
+}
+
+.particles-over-text {
+    position: relative;
+    display: block;
+    color: white;
+    top: 10vh;
 }

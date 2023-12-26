@@ -13,6 +13,7 @@ const app = express();
 
 const posts = [];
 
+
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
