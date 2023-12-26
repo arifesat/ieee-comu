@@ -35,7 +35,7 @@
 }
 
 .navbar-about-page {
-    background: none;
+    background: transparent;
     position: absolute;
     margin: 0;
     padding: 0;
@@ -110,20 +110,11 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-/* ---- reset ---- */ 
-canvas{ display: block; } 
-/* ---- particles.js container ---- */ 
 #particles-js{ 
     position:absolute; 
     width: 100%; 
     height: 100%; 
     text-align: center;
-    
-    /* background-color: #5994c7; 
-    background-image: url(""); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: 50% 50%;  */
 } 
 
 .about-page {
@@ -156,4 +147,26 @@ a {
     display: block;
     color: white;
     top: 10vh;
+}
+
+.committees {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.committees div {
+    margin: 3vh;
+    text-align: center;
+    flex: 1 0 30%;
+}
+
+.committees img {
+    height: 20vh;
+    margin-bottom: 3vh;
+    border-radius: 50%;
+}
+
+.committees-last {
+    width: 30%;
 }
