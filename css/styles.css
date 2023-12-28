@@ -106,10 +106,7 @@
 }
 
 .landing-context {
-    position: relative;
-    z-index: -1;
-    top: 100px;
-    /* padding-top: 10vh; */
+    height: 0px;
 }
 
 .comu-logo {
