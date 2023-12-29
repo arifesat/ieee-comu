@@ -70,8 +70,8 @@ html body {
     flex: 0 0 30%;
 }
 
-.social-media-managers-r2 div {
-    flex: 0 0 50%;
+.social-media-managers-r2 div, .embs-committee .content-managers div {
+    flex: 0 0 40%;
     /* margin: 10px; */
 }
 .committee-name {
