@@ -71,9 +71,47 @@ html body {
 }
 
 .social-media-managers-r2 div, .embs-committee .content-managers div {
-    flex: 0 0 40%;
+    flex: 0 0 50%;
     /* margin: 10px; */
 }
 .committee-name {
     margin-bottom: 4vh;
 }
+
+.member img {
+    height: 25vh;
+    margin-bottom: 4vh;
+}
+
+#cs-section {
+    background-color: #E87722;
+    padding: 5vh;
+}
+
+#embs-section {
+    background-color: #772583;
+    padding: 5vh;
+}
+
+#wie-section {
+    background-color: #772583;
+    padding: 5vh;
+}
+
+#pes-section {
+    background-color: #78BE20;
+    padding: 5vh;
+}
+
+#comsoc-section {
+    background-color: #00AEEF;
+    padding: 5vh;
+}
+
+#tvt-section {
+    background-color: #78BE20;
+    padding: 5vh;
+}
+
+
+
