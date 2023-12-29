@@ -1,4 +1,4 @@
-html {
+html body {
     background-color: #002855;
 }
 
@@ -16,15 +16,21 @@ html {
 .about-page {
     background-color: #002855;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .team {
     text-align: center;
 }
 
-.team h1{
-    margin-top: 10%;
+.team h1 {
     color: white;
+}
+
+.our-team{
+    margin-top: 10%;
+    margin-bottom: 4vh;
 }
 
 .members {
@@ -37,17 +43,37 @@ html {
     color: white;
 }
 
-.member img {
+.members img {
     border-radius: 50%;
 }
 
-.co-leaders {
+.co-leaders, .board, .content-managers, .social-media-managers-r1, .social-media-managers-r2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .co-leaders div {
-    flex: 0 0 50%
+    flex: 0 0 50%;
+}
+
+.board div {
+    flex: 0 0 30%;
+}
+
+.content-managers div {
+    flex: 0 0 30%;
+}
+
+.social-media-managers-r1 div {
+    flex: 0 0 30%;
+}
+
+.social-media-managers-r2 div {
+    flex: 0 0 50%;
+    /* margin: 10px; */
+}
+.committee-name {
+    margin-bottom: 4vh;
 }
