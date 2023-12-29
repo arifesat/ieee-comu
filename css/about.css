@@ -1,14 +1,53 @@
-.navbar-about-page {
+html {
+    background-color: #002855;
+}
+
+.navbar {
     background: transparent;
-    position: absolute;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar-about-page.scrolled {
-    background: black !important;
-    margin: 0;
+.navbar.scrolled {
+    background: #00629B;
+    margin-top: 0;
     transition: background-color 200ms linear;
-    transition: margin 50ms linear;
+    transition: margin 200ms linear;
 }
 
+.about-page {
+    background-color: #002855;
+    height: 100%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team h1{
+    margin-top: 10%;
+    color: white;
+}
+
+.members {
+    text-align: center;
+}
+
+.member {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.member img {
+    border-radius: 50%;
+}
+
+.co-leaders {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.co-leaders div {
+    flex: 0 0 50%
+}

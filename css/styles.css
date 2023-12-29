@@ -1,5 +1,16 @@
 /* ieee blue #00629B */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif !important;
+}
+
+a {
+    margin: none;
+    padding: none;
+}
+
 .container-fluid {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -10,7 +21,7 @@
     margin-top: 10px;
     border: 0;
     border-radius: 0;
-    margin-bottom: 0;
+    margin-bottom: 10;
     font-size: 20px;
     letter-spacing: 1px;
     font-family: Formata, sans-serif;
@@ -54,6 +65,7 @@
 	width: 100%;
 	height: 60px;
 	background-color: black;
+    margin-bottom: 0;
 }
 
 .footer p {
@@ -64,12 +76,6 @@
 
 .about-dropdown {
     text-align: center;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Montserrat, sans-serif !important;
 }
  
 .about-page {
@@ -82,9 +88,3 @@ body {
     padding-top: 0;
     margin-top: 0;
 }
-
-a {
-    margin: none;
-    padding: none;
-}
-

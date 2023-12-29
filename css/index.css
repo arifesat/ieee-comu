@@ -1,3 +1,24 @@
+.navbar {
+    background-color: transparent;
+    margin: 0;
+    height: 12vh;
+    transition: background-color 200ms linear;
+    transition: height 50ms linear;
+}
+
+.navbar.scrolled {
+    /* background: #317eb6; */
+    background-color: #00629B;
+    margin: 0;
+    height: 10vh;
+    transition: background-color 200ms linear;
+    transition: height 50ms linear;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
 .landing {
     background-image: url(../images/comu.jpg);
     background-size: cover;
