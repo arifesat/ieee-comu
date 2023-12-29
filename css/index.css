@@ -1,0 +1,77 @@
+.landing {
+    background-image: url(../images/comu.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    /* z-index: 0; */
+    /* position: static; */
+}
+
+.landing-text {
+    color: white;
+    width: 70vw;
+    font-size: 8vh;
+    margin: auto;
+    font-family: Montserrat, sans-serif;
+    z-index: 10;
+    font-display: block;
+}
+
+.comu-logo {
+    height: 25vh;
+    margin-bottom: 7vh;
+    margin-top: 10%;
+}
+
+.landing-context {
+    z-index: 10 !important;
+}
+
+#particles-js{ 
+    position:absolute; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    z-index: 0;
+}
+
+.motto {
+    color: rgb(231, 231, 231);
+    font-size: 8vh;
+    margin: auto;
+    font-family: Caveat-italic, cursive;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+.committees {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.committees div {
+    margin: 3vh;
+    text-align: center;
+    flex: 0 0 30%;
+    margin: 4vh auto;
+}
+
+.committees img {
+    height: 20vh;
+    margin-bottom: 3vh;
+    border-radius: 50%;
+}
+
+.committees-heading {
+    text-align: center;
+    color: #00629B;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 30px;
+}

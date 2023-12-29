@@ -1,0 +1,14 @@
+.navbar-about-page {
+    background: transparent;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-about-page.scrolled {
+    background: black !important;
+    margin: 0;
+    transition: background-color 200ms linear;
+    transition: margin 50ms linear;
+}
+
