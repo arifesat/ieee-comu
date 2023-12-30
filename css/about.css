@@ -47,7 +47,7 @@ html body {
     border-radius: 50%;
 }
 
-.co-leaders, .board, .content-managers, .social-media-managers-r1, .social-media-managers-r2{
+.co-leaders, .board, .content-managers, .social-media-managers, .social-media-managers-r1, .social-media-managers-r2{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -70,7 +70,7 @@ html body {
     flex: 0 0 30%;
 }
 
-.social-media-managers-r2 div, .embs-committee .content-managers div {
+.social-media-managers div, .social-media-managers-r2 div, .embs-committee .content-managers div {
     flex: 0 0 50%;
     /* margin: 10px; */
 }
