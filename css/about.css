@@ -38,8 +38,9 @@ html body {
 }
 
 .member {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    /* margin-top: 5%;   */
+    /* margin-bottom: 5%; */
+    margin: 2% 10px;
     color: white;
 }
 
@@ -49,13 +50,13 @@ html body {
 
 .co-leaders, .board, .content-managers, .social-media-managers, .social-media-managers-r1, .social-media-managers-r2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .co-leaders div {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
 }
 
 .board div {
@@ -71,7 +72,7 @@ html body {
 }
 
 .social-media-managers div, .social-media-managers-r2 div, .embs-committee .content-managers div {
-    flex: 0 0 50%;
+    flex: 0 0 40%;
     /* margin: 10px; */
 }
 .committee-name {
@@ -79,7 +80,7 @@ html body {
 }
 
 .member img {
-    height: 25vh;
+    height: 20vh;
     margin-bottom: 4vh;
 }
 
