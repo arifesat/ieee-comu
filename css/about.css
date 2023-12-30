@@ -38,8 +38,6 @@ html body {
 }
 
 .member {
-    /* margin-top: 5%;   */
-    /* margin-bottom: 5%; */
     margin: 2% 10px;
     color: white;
 }
@@ -77,6 +75,29 @@ html body {
 }
 .committee-name {
     margin-bottom: 4vh;
+    position: relative;
+    display: inline-block;
+}
+
+.committee-name::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transition: width .3s;
+
+}
+
+.committee-name:hover::after {
+    width: 100%;
+
+}
+
+.committee-name .fa-solid {
+    font-size: 1.5rem !important;
 }
 
 .member img {
@@ -111,12 +132,13 @@ html body {
 }
 
 #tvt-section, #comsoc-section, #pes-section, #wie-section, #embs-section, #cs-section {
-    margin: 5%;
-    padding: 5vh;;
-    border-radius: 10%;
-    /* max-height: 50px; */
+    margin: 0;
+    padding: 0;
+    border-radius: 2%;
+    max-height: 0px;
     overflow: hidden;
-    transition: max-height 0.5s ease-out;
+    opacity: 0;
+    transition: max-height 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
 }
 
 

@@ -1,27 +1,27 @@
-// Select all section names
-var sectionNames = document.querySelectorAll('#tvt-section, #comsoc-section, #pes-section, #wie-section, #embs-section, #cs-section');
+// Select all h1 tags
+var sectionNames = document.querySelectorAll('.committee-name');
 
-// Add a click event listener to each section name
-sectionNames.forEach(function(section) {
-    section.addEventListener('click', function() {
-        // Select all members in the clicked section
-        var members = section.querySelectorAll('.member');
+// Add a click event listener to each h1 tag
+sectionNames.forEach(function(h1) {
+    h1.addEventListener('click', function() {
+        // Select the section under the clicked h1 tag
+        var section = h1.nextElementSibling;
 
-        // Toggle the visibility and height of each member
-        members.forEach(function(member) {
-            if (member.style.visibility === 'hidden') {
-                member.style.visibility = 'visible';
-                section.style.height = 'auto'; // Expand the height to fit all members
-            } else {
-                member.style.visibility = 'hidden';
-                section.style.height = '0'; // Shrink the height to fit only the h1 tag
-            }
-
-            if (section.style.maxHeight !== 'auto') {
-                section.style.maxHeight = 'auto'; // Expand the max-height to fit all members
-            } else {
-                section.style.maxHeight = '0'; // Shrink the max-height to fit only the h1 tag
-            }
-        });
+        // Toggle the visibility and height of the section
+        if (section.style.maxHeight !== 'none') {
+            section.style.maxHeight = 'none ';
+            section.style.overflow = 'auto';
+            section.style.padding = '2vh 5vh';
+            section.style.margin = '2% 5%';
+            section.style.opacity = '1';
+            section.style.borderRadius = '2%';
+        } else {
+            section.style.maxHeight = '0px';
+            section.style.overflow = 'hidden';
+            section.style.padding = '0 5vh';
+            section.style.margin = '0 5%';
+            section.style.borderRadius = '50%';
+            section.style.opacity = '0';
+        }
     });
 });
