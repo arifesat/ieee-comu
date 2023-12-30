@@ -86,34 +86,39 @@ html body {
 
 #cs-section {
     background-color: #E87722;
-    padding: 5vh;
+    height: auto;
+    overflow: hidden;
 }
 
 #embs-section {
     background-color: #772583;
-    padding: 5vh;
 }
 
 #wie-section {
     background-color: #772583;
-    padding: 5vh;
 }
 
 #pes-section {
     background-color: #78BE20;
-    padding: 5vh;
 }
 
 #comsoc-section {
     background-color: #00AEEF;
-    padding: 5vh;
 }
 
 #tvt-section {
     background-color: #78BE20;
-    padding: 5vh;
-    margin: 5%;
 }
+
+#tvt-section, #comsoc-section, #pes-section, #wie-section, #embs-section, #cs-section {
+    margin: 5%;
+    padding: 5vh;;
+    border-radius: 10%;
+    /* max-height: 50px; */
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
 
 
 
