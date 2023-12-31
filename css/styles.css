@@ -54,6 +54,11 @@ a {
     transition: margin 50ms linear;
 }
 
+.mynav {
+    z-index: 1000 !important;
+    /* display: inline-block; */
+}
+
 .footer-padding {
 	padding-bottom: 60px;
 }
