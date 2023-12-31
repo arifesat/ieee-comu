@@ -26,10 +26,10 @@ sectionNames.forEach(function(h1) {
     });
 });
 
-window.onload = function() {
-    setTimeout(function() {
-      // Hide the spinner
-      document.querySelector('.lds-hourglass').style.display = 'none';
-      document.querySelector('#page-loader').style.display = 'none';
-    }, 1500); // Delay of 1 second
-  };
+// window.onload = function() {
+//     setTimeout(function() {
+//       // Hide the spinner
+//       document.querySelector('.lds-hourglass').style.display = 'none';
+//       document.querySelector('#page-loader').style.display = 'none';
+//     }, 1500); // Delay of 1 second
+//   };

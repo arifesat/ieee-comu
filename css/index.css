@@ -2,8 +2,7 @@
     background-color: transparent;
     margin: 0;
     height: 12vh;
-    transition: background-color 200ms linear;
-    transition: height 250ms linear;
+    transition: background-color 200ms linear, height 250ms linear;
     z-index: 1000 !important;
 }
 
@@ -12,8 +11,7 @@
     background-color: #00629B;
     margin: 0;
     height: 10vh;
-    transition: background-color 200ms linear;
-    transition: height 250ms linear;
+    transition: background-color 200ms linear, height 250ms linear;
     z-index: 1000 !important;
 }
 
