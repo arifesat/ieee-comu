@@ -7,10 +7,9 @@ html body {
 }
 
 .navbar.scrolled {
-    background: #00629B;
+    background: #022146;
     margin-top: 0;
-    transition: background-color 200ms linear;
-    transition: margin 200ms linear;
+    height: 6vh;
 }
 
 .about-page {
@@ -107,8 +106,6 @@ html body {
 
 #cs-section {
     background-color: #E87722;
-    height: auto;
-    overflow: hidden;
 }
 
 #embs-section {
@@ -139,6 +136,7 @@ html body {
     overflow: hidden;
     opacity: 0;
     transition: max-height 0.5s ease, padding 0.5s ease, margin 0.5s ease, border-radius 0.5s ease, opacity 0.5s ease;
+    background-color: #022146 !important;
 }
 
 

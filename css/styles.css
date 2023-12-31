@@ -32,18 +32,21 @@ a {
     z-index: 1000;
     transition: background-color 200ms linear;
     transition: margin 200ms linear;
+    transition: height 250ms linear;
+
 }
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
 
 .navbar-brand img {
-    height: 10vh;
-    z-index: 1;
+    height: 9vh;
+    transition: height 250ms linear;
 }
 
-.navbar-logo {
-    width: 70%;
+.navbar-brand.scrolled img {
+    height: 8vh;
+    transition: height 250ms linear;
 }
 
 .navbar.scrolled {
@@ -52,6 +55,7 @@ a {
     margin: 0;
     transition: background-color 200ms linear;
     transition: margin 50ms linear;
+    transition: height 250ms linear;
 }
 
 .mynav {
