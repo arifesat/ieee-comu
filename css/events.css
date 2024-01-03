@@ -1,0 +1,66 @@
+html body {
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar.scrolled {
+    background: #022146;
+    margin-top: 0;
+    height: 8vh;
+}
+
+.events-page {
+    background-color: #022146;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.events-header {
+    margin-top: 13vh;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.events {
+    margin: 5vh 10vw;
+}
+
+.event {
+    height: 60vh;
+    width: 70vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+.event div {
+    flex: 0 0 40%;
+}
+
+.event img, .event p {
+    height: 55vh;
+}
+
+.event p, .event h3 {
+    text-align: left;
+}
+
+.event p {
+    color: rgb(219, 218, 218);
+}
+
+.event a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
