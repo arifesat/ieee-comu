@@ -16,19 +16,19 @@ html body {
 
 .events-page {
     background-color: #022146;
-    height: 100%;
+    /* height: 100%; */
     text-align: center;
-    color: white;
 }
 
 .events-header {
     margin-top: 13vh;
     font-size: 3rem;
     font-weight: bold;
+    color: white;
 }
 
 .events {
-    margin: 5vh 10vw;
+    margin: 0 10vw;
 }
 
 .event {
