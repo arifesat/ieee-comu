@@ -22,7 +22,7 @@ a {
     border: 0;
     border-radius: 0;
     margin-bottom: 10;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 1px;
     font-family: Formata, sans-serif;
     position: fixed !important;
@@ -30,9 +30,7 @@ a {
     height: 10vh;
     width: 100%;
     z-index: 1000;
-    transition: background-color 200ms linear;
-    transition: margin 200ms linear;
-    transition: height 250ms linear;
+    transition: background-color 200ms linear, margin 50ms linear, height 250ms linear, font-size 250ms linear;
 
 }
 .navbar-nav  li a:hover {
@@ -53,9 +51,8 @@ a {
     /* background: #317eb6; */
     background-color: #00629B;
     margin: 0;
-    transition: background-color 200ms linear;
-    transition: margin 50ms linear;
-    transition: height 250ms linear;
+    font-size: 1rem;
+    transition: background-color 200ms linear, margin 50ms linear, height 250ms linear, font-size 250ms linear;
 }
 
 .mynav {
