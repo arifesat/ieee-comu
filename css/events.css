@@ -1,15 +1,15 @@
 html body {
     font-family: Montserrat, sans-serif;
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: #022146   ;
 }
 
 .navbar {
-    background: black;
+    background: #022146;
 }
 
 .navbar.scrolled {
-    background: #022146;
+    background: black;
     margin-top: 0;
     height: 8vh;
 }
